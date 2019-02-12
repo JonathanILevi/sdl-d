@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/sdl-d
+sdl-d.so
+sdl-d.dylib
+sdl-d.dll
+sdl-d.a
+sdl-d.lib
+sdl-d-test-*
+*.exe
+*.o
+*.obj
+*.lst

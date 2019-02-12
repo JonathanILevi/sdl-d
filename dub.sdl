@@ -1,0 +1,7 @@
+"name "sdl-d"
+description "D like SDL2 bindings"
+authors "Jonathan Levi"
+copyright "Copyright © 2019, Jonathan Levi"
+license "BSL-1.0"
+targetType "library"
+dependency "derelict-sdl2" version="~>3.1.0-alpha.4"
