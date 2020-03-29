@@ -60,6 +60,9 @@ enum WindowPos : int {
 
 unittest {
 	import std.stdio;
+	import SDL.Init;
+	
+	init();
 	
 	Window window = new Window("test window", Vec!(int,2)(800,600), Flags.resizable);
 	

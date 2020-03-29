@@ -3,11 +3,12 @@ module SDL.Init;
 import derelict.sdl2.sdl;
 import SDL.Exception;
 
-void init(Init flags) {
+void init(Init flags=Init.everything) {
+	DerelictSDL2.load();
 	sdlEnforce0(cast(uint)SDL_Init(flags));
 }
 static this() {
-	DerelictSDL2.load();
+	////DerelictSDL2.load();
 }
 
 enum Init : uint {

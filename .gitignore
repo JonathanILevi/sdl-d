@@ -13,3 +13,5 @@ sdl-d-test-*
 *.o
 *.obj
 *.lst
+
+*.a
